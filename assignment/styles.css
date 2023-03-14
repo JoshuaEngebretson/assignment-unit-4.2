@@ -29,11 +29,12 @@ h3 {
     width: 100px;
     background-color: purple;
     transform-origin: right;
-    margin-top: 20px;
-    transition: all 5s ease-in-out
+    transition: all 5s ease-in-out;
+    margin:10%;
+    border-radius: 5%;
 }
 
 .Rotating_box:hover {
     background-color: yellow;
-    transform: rotate(360deg)
+    transform: rotate(360deg);
 }
