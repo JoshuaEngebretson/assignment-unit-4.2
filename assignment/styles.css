@@ -1,0 +1,39 @@
+header {
+    background-color: aqua;
+}
+
+div {
+    text-align: center;
+    border: 5px;
+    border-color: black;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+}
+
+img {
+    border-radius: 20%;
+    border-color: black;
+}
+
+h3 {
+    background-color:blanchedalmond;
+    color:brown;
+}
+
+.Rotating_box {
+    align-content: center;
+    height:100px;
+    width: 100px;
+    background-color: purple;
+    transform-origin: right;
+    margin-top: 20px;
+    transition: all 5s ease-in-out
+}
+
+.Rotating_box:hover {
+    background-color: yellow;
+    transform: rotate(360deg)
+}
